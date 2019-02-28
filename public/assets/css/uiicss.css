@@ -1,0 +1,184 @@
+/**
+*
+*	@author 	Nabil Muhammad Firdaus
+*	@link 		www.nmfzone.com
+*	@github 	nmfzone
+*
+*/
+
+* {
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+a:link, a:visited {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.w70 {
+	width: 70%;
+}
+.w80 {
+	width: 80%;
+}
+button,
+input[type="submit"],
+input[type="button"],
+input[type="reset"] {
+	-webkit-appearance: button;
+	cursor: pointer;
+}
+button[disabled],
+input[disabled] {
+	cursor: default;
+}
+
+body {
+	background: #FFFFFF;
+	width: 100%;
+	overflow: hidden;
+	font-family: 'Open Sans Light', Verdana, Arial;
+	font-size: 12px;
+}
+
+.wrapper {
+	margin: 0 auto;
+	padding: 0 auto;
+	background: #fff;
+}
+
+#uii-form {
+	width: 100%;
+}
+
+#uii-form.login {
+
+}
+
+#uii-form.login > .uii-input-control {
+	margin: 0 0 10px 0;
+	clear: both;
+	width: 100%;
+}
+
+#uii-form.login > .uii-input-control > label {
+	min-width: 45%;
+	margin-right: 5%;
+}
+
+#uii-form.login > .uii-input-control > input {
+	max-width: 50%;
+}
+
+#uii-form.login > .uii-input-control {
+	margin: 5px 0 0 0;
+	clear: both;
+}
+
+.triangle-l {
+	border-color:transparent #000 transparent transparent;
+	border-style:solid;
+	border-width:15px;
+	height:0px;
+	width:0px;
+	position:relative;
+	left:-51.3%;
+	top:23px;
+	z-index:-1;
+}
+
+.triangle-r {
+	border-color:transparent transparent transparent #000;
+	border-style:solid;
+	border-width:15px;
+	height:0px;
+	width:0px;
+	position:relative;
+	left:51.2%;
+	top:-8px;
+	z-index:-1;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  /*background-color: #ffffff;*/
+  background: red;
+  border: 1px solid #cccccc;
+  /*border-radius: 4px;*/
+}
+
+.dropdown.drop-right {
+	left: 85%;
+	right: 0%;
+	color: #000;
+}
+
+.dropdown > ul {
+	min-width: 160px;
+	padding: 5px 0;
+	margin: 2px 0 0;
+	font-size: 14px;
+	list-style: none;
+}
+
+.dropdown > ul > li {
+	padding: 5px 10px 5px 10px;
+}
+
+.dropdown > ul > li > a:link, .dropdown > ul > li > a:visited {
+	color: #000;
+}
+
+.dropdown > ul > li:hover {
+	background: #F1F1F1;
+}
+
+.arrow.top {
+	position: absolute;
+	margin-top: -17px;
+	margin-left: 25%;
+    font: 19px/1 "Genericons";
+    vertical-align: top;
+    color: #F1F1F1;
+}
+
+.arrow.top::before {
+	content: "";
+}
+
+.caret {
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+    margin-left: 2px;
+    font: 22px/1 "Genericons";
+    vertical-align: top;
+}
+
+.caret::before {
+	content: "";
+}
+
+a#scroll-up {
+    bottom: 20px;
+    position: fixed;
+    right: 20px;
+    display: none;
+    font: 26px/1 "Genericons";
+    vertical-align: top;
+    color: #FFF;
+    background-color: #0FBE7C;
+    opacity: 0.5;
+    border-radius: 3px;
+    padding: 6px;
+}
+
+a#scroll-up::before {
+    content: "";
+}
